@@ -7,6 +7,8 @@ const [storedValue, setStoredValue] = useState(() => {
 
     return item ? JSON.parse(item) : initialValue;
 });
+
+return [storedValue]
 }
 
 
